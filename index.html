@@ -33,12 +33,13 @@
         </header>
 
         <!--hero/jumbotron -->
-        <section>
+        <section class="hero">
             <div>
-                <h3>Get Started Today</h3>
-                <p>Fill out this form and one of our trainers will schedule a consult</p>
                 <!--Add form element-->
-                <form>
+                <form class="hero-form">
+                    <h3>Get Started Today</h3>
+                    <p>Fill out this form and one of our trainers will schedule a consult</p>
+
                     <label for="name">Enter full name:</label>
                     <input type="text" placeholder="Your Name" name="name" id="name" />
                     <lable for="email">Enter email address:</lable>
@@ -53,8 +54,8 @@
                         <label for="trainer-no">No</label>
                     </p>
                     <p>
-                        <input type="checkbox" name="agreement" id="agreement" />
                         <label for="agreement">I acknowledge that I am at least 18 years of age</label>
+                        <input type="checkbox" name="agreement" id="agreement" />
                     </p>
                     <p>
                         <button type="submit">
