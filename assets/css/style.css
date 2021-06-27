@@ -79,6 +79,11 @@ section {
     
 }
 
+.hero-cta p, h2 {
+border-style: solid;
+border-color: red;
+}
+
 .hero-form {
     background-color: #fce138;
     color: #024e76;
